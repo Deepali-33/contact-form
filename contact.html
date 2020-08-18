@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contact Form</title>
+       <link rel="stylesheet" href="contact.css">
+
+    </head>
+    <body>
+        <div class="form">
+            <h1>Contact Form</h1>
+            <p>please fill in your information and we'll be sending your order in on time.</p>
+            <form>
+           
+               <div>
+                    <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="myName" id="fname" placeholder="First Name"&nbsp;>
+                    <input type="text" name="myName" id="lname" placeholder="Last Name"&nbsp;>
+                
+               </div>&nbsp;
+               <br>
+               <div>
+                    <label for="email"> Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type:="email" name="myEmail" id="email" placeholder="blah@blah.in">
+               </div>
+                <br>
+               <div>
+                    <label for="num">Phone*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option>+91</option>
+                        <option>+1</option>
+                    </select>
+                    <input type="phone" name="myPhone" id="num" placeholder="##########" minimum="10" maxlength="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <br>
+                <div>
+                    <label for="msg">Message Subject*</label>&nbsp;&nbsp;
+                    <select name="message" id="msg">
+                        <option>Return</option>
+                        <option>Replace</option>
+                        <option>Place an order</option>
+                        <option selected>Others</option>
+                    </select>
+                </div>
+                   <br>
+
+            
+                <div>
+                    <label for="mesg">Message*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <textarea name="mesg" id="mesg" cols="50" rows="5" placeholder="Type your message here...."></textarea>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <button onclick="contactform()" type="button">SUBMIT NOW</button>
+                </div>
+                
+               
+
+            </form>
+        </div>
+        <script src="contact.js"></script>
+    
+    </body>
+</html>
