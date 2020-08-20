@@ -1,10 +1,42 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1597509552112-ac922fa7084e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-color: teal;
+   
 }
 .form {
-    background-image: url('https://images.unsplash.com/photo-1478127770583-0b4e3e37e22f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-image: url('https://images.unsplash.com/photo-1597509552112-ac922fa7084e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     border: 4px solid rgb(59, 8, 42);
-    padding: 50px 50px 50px 50px;
-    margin: 20px 350px 30px 370px;
+    padding: 6px 0px 10px 20px;
+    margin: 20px 418px 30px 419px;
     border-radius: 10px;
+    
+    
 }
+
+@media ( max-width :320px) {
+    .modal {
+         min-width: 200px;
+         min-height: 120px;
+    }
+}
+
+@media ( min-width :321px) {
+    .modal {
+         min-width: 300px;
+         min-height: 220px;
+    }
+}
+
+@media ( min-width :640px) {
+    .modal {
+         min-width: 480px;
+         min-height: 320px;
+    }
+}
+
+@media ( min-width :1200px) {
+    .modal {
+         min-width: 700px;
+         min-height: 400px;
+    }
+}
+

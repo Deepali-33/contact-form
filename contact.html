@@ -15,14 +15,14 @@
            
                <div>
                     <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" name="myName" id="fname" placeholder="First Name"&nbsp;>
-                    <input type="text" name="myName" id="lname" placeholder="Last Name"&nbsp;>
+                    <input type="text" name="myName" id="fname" placeholder="First Name"&nbsp; required/>
+                    <input type="text" name="myName" id="lname" placeholder="Last Name"&nbsp; required/>
                 
                </div>&nbsp;
                <br>
                <div>
-                    <label for="email"> Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type:="email" name="myEmail" id="email" placeholder="blah@blah.in">
+                <label for="mail"> Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name ="email" id="mail" type="email" placeholder="blah@blah.blah" cols="40" rows="4"   required/>
                </div>
                 <br>
                <div>
@@ -31,7 +31,7 @@
                         <option>+91</option>
                         <option>+1</option>
                     </select>
-                    <input type="phone" name="myPhone" id="num" placeholder="##########" minimum="10" maxlength="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="phone" name="myPhone" id="num" placeholder="##########" maxlength="10" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
                 <br>
                 <div>
@@ -40,7 +40,7 @@
                         <option>Return</option>
                         <option>Replace</option>
                         <option>Place an order</option>
-                        <option selected>Others</option>
+                        <option selected>Other</option>
                     </select>
                 </div>
                    <br>
@@ -48,7 +48,7 @@
             
                 <div>
                     <label for="mesg">Message*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <textarea name="mesg" id="mesg" cols="50" rows="5" placeholder="Type your message here...."></textarea>
+                    <textarea name="mesg" id="mesg" cols="40" rows="4" placeholder="Type your message here...." required/></textarea>
                 </div>
                 <br>
                 <hr>
